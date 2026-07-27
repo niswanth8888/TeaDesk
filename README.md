@@ -183,7 +183,7 @@ This project is licensed under the MIT License.
 
 **Niswanth T**
 
-AI & Software Developer
+
 
 Building practical AI-powered solutions focused on automation, intelligent workflows, and enterprise management systems.
 
