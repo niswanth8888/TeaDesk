@@ -1,405 +1,224 @@
-# 🍃 Tea Desk - Enterprise Tea Factory Management System
+<div align="center">
 
-> **An enterprise-grade digital platform designed to streamline and automate tea factory operations, supplier management, procurement, production monitoring, inventory control, financial management, and business reporting.**
+# 🍃 Tea Desk
 
----
+### Enterprise Tea Factory Management System
 
-## 📖 Overview
+*A modern ERP solution designed to digitize and streamline tea factory operations.*
 
-Tea Desk is a comprehensive Tea Factory Management System built to digitize and modernize the complete operational workflow of tea manufacturing industries. The platform replaces traditional paper-based and spreadsheet-driven processes with a centralized, secure, and scalable digital solution.
+![Status](https://img.shields.io/badge/Status-Under%20Development-orange)
+![Version](https://img.shields.io/badge/Version-v1.0-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Web-blueviolet)
 
-Tea factories process thousands of kilograms of green tea leaves daily from numerous suppliers and collection centers. Managing procurement, weighment, supplier records, inventory, payments, and operational reports manually often results in inefficiencies, calculation errors, data duplication, and limited visibility into business performance.
-
-Tea Desk addresses these challenges by providing an integrated management platform that centralizes every critical business operation into a unified system. The application is designed to improve operational efficiency, ensure data accuracy, maintain historical traceability, and support informed business decision-making through real-time analytics and reporting.
-
-The system follows modern software engineering principles and is being developed as an industrial-scale application capable of supporting tea factories of various sizes.
-
----
-
-# 🎯 Project Objectives
-
-The primary objectives of Tea Desk are:
-
-- Digitize the complete workflow of tea factory operations.
-- Eliminate manual and paper-based record management.
-- Improve operational efficiency through automation.
-- Ensure accurate and consistent data management.
-- Maintain historical records for auditing and traceability.
-- Simplify supplier and procurement management.
-- Generate automated operational and financial reports.
-- Provide real-time visibility into factory performance.
-- Support management decision-making through analytics.
-- Build a scalable platform capable of supporting future business growth.
+</div>
 
 ---
 
-# 🏭 Business Problem
+# 📖 Overview
 
-Traditional tea factories rely heavily on manual registers, paper documents, and spreadsheet-based workflows to manage daily operations.
+Tea Desk is an enterprise-grade Tea Factory Management System developed to modernize and automate the complete operational workflow of tea manufacturing industries.
 
-These conventional methods introduce several operational challenges:
+The platform centralizes leaf procurement, supplier management, production tracking, inventory, financial operations, employee management, and business reporting into a single digital ecosystem.
 
-- Manual recording errors during leaf weighment.
-- Duplicate and inconsistent procurement records.
-- Difficulty maintaining supplier history.
-- Delayed supplier payment calculations.
-- Limited visibility into production activities.
-- Time-consuming report generation.
-- Poor inventory tracking.
-- Difficulty auditing historical transactions.
-- Lack of centralized business information.
-- Limited analytical insights for management.
-
-Tea Desk transforms these fragmented workflows into a centralized enterprise management system that automates operations while maintaining data integrity and operational transparency.
+Designed using a scalable and modular architecture, Tea Desk aims to improve operational efficiency, reduce manual paperwork, eliminate calculation errors, and provide real-time business insights for better decision-making.
 
 ---
 
-# 🚀 Core Modules
+# 🎯 Objectives
 
-## 🌿 Leaf Weighment Management
+- Digitize tea factory operations
+- Automate procurement workflows
+- Centralize supplier management
+- Improve production monitoring
+- Streamline inventory management
+- Generate business reports
+- Increase operational transparency
+- Reduce manual errors
+- Support data-driven decision making
 
-The Leaf Weighment module serves as the foundation of the entire system. It records and manages the procurement of green tea leaves from registered suppliers and collection centers.
+---
 
-### Features
+# ✨ Features
 
-- Daily leaf weighment recording
-- Gross and net weight calculations
+## 🌿 Leaf Procurement
+
+- Green leaf weighment
+- Daily procurement records
 - Collection center management
-- Vehicle information management
-- Duplicate entry validation
-- Historical weighment records
-- Daily procurement summaries
-- Search and filtering capabilities
+- Vehicle tracking
+- Automated weight calculations
+- Historical records
 
 ---
 
 ## 👥 Supplier Management
 
-This module maintains complete supplier information and procurement history.
-
-### Features
-
 - Supplier registration
-- Personal and contact information
-- Estate and location details
-- Supplier identification management
-- Historical procurement tracking
-- Payment history
-- Performance analysis
-- Supplier contribution reports
-
----
-
-## 📦 Procurement Management
-
-The procurement module manages all purchasing activities related to green tea leaf collection.
-
-### Features
-
-- Procurement records
-- Daily purchase summaries
-- Monthly procurement reports
-- Procurement cost analysis
-- Historical transaction management
-- Procurement analytics
+- Procurement history
+- Payment records
+- Performance tracking
+- Contact management
 
 ---
 
 ## 🏭 Production Management
 
-The production module tracks tea processing activities throughout the manufacturing lifecycle.
-
-### Features
-
-- Daily production monitoring
-- Batch management
-- Production history
-- Factory output tracking
-- Processing records
-- Manufacturing performance reports
+- Production monitoring
+- Batch tracking
+- Daily processing reports
+- Factory performance analytics
 
 ---
 
 ## 📦 Inventory Management
 
-The inventory system manages both raw materials and finished tea products.
-
-### Features
-
-- Raw leaf inventory
-- Finished tea inventory
-- Packaging material tracking
+- Raw material inventory
+- Finished product inventory
+- Stock movement
 - Warehouse management
-- Stock movement history
-- Low stock notifications
-- Inventory reporting
+- Inventory reports
 
 ---
 
 ## 💰 Financial Management
 
-The financial module manages procurement payments and operational expenses.
-
-### Features
-
-- Supplier payment management
+- Supplier payments
 - Purchase records
-- Expense tracking
-- Outstanding balance monitoring
-- Financial summaries
-- Payment history
-- Financial reporting
-
----
-
-## 👨‍💼 Employee Management
-
-This module manages workforce information and administrative records.
-
-### Features
-
-- Employee profiles
-- Attendance management
-- Department management
-- Payroll support
-- Staff information
-- User role assignments
-
----
-
-## 📊 Reporting & Analytics
-
-The reporting engine provides management with real-time operational insights.
-
-### Reports Include
-
-- Daily procurement reports
-- Monthly procurement reports
-- Supplier reports
-- Production reports
+- Expense management
 - Financial reports
-- Inventory reports
-- Performance dashboards
-- Historical analytics
 
 ---
 
-# 🔄 System Workflow
+## 📊 Reports & Analytics
 
-```
-Supplier Registration
-        │
-        ▼
-Leaf Collection
-        │
-        ▼
-Leaf Weighment
-        │
-        ▼
-Procurement Management
-        │
-        ▼
-Production Processing
-        │
-        ▼
-Inventory Management
-        │
-        ▼
-Sales & Distribution
-        │
-        ▼
-Financial Management
-        │
-        ▼
-Reports & Analytics
-```
-
----
-
-# ✨ Key Features
-
-- Centralized enterprise management platform
-- Secure user authentication
-- Role-based access control
-- Automated calculations
-- Historical data management
-- Real-time operational dashboards
-- Supplier performance tracking
-- Production monitoring
-- Inventory management
-- Financial reporting
-- Advanced search and filtering
-- Data validation
-- Scalable modular architecture
-- REST API integration
-- Enterprise-ready design
+- Daily Reports
+- Weekly Reports
+- Monthly Reports
+- Procurement Analytics
+- Production Analytics
+- Financial Analytics
+- Inventory Reports
 
 ---
 
 # 🏗️ System Architecture
 
 ```
-                    Users
-                      │
-                      ▼
-             React Frontend
-                      │
-               REST API Layer
-                      │
-                      ▼
-             FastAPI Backend
-                      │
-          Business Logic Layer
-                      │
-                      ▼
-          PostgreSQL Database
+Users
+   │
+   ▼
+React Frontend
+   │
+REST API
+   │
+FastAPI Backend
+   │
+Business Services
+   │
+PostgreSQL Database
 ```
 
 ---
 
 # 💻 Technology Stack
 
-## Frontend
-
-- React.js
-- HTML5
-- CSS3
-- JavaScript
-
-## Backend
-
-- FastAPI
-- Python
-
-## Database
-
-- PostgreSQL
-
-## Version Control
-
-- Git
-- GitHub
-
-## API
-
-- RESTful APIs
-
-## Future Integrations
-
-- JWT Authentication
-- Redis Caching
-- Docker
-- Cloud Deployment
-- AI Analytics
+| Layer | Technology |
+|---------|------------|
+| Frontend | React.js |
+| Backend | FastAPI (Python) |
+| Database | PostgreSQL |
+| API | REST API |
+| Version Control | Git & GitHub |
 
 ---
 
-# 📂 Proposed Project Structure
+# 📂 Project Structure
 
 ```
-TeaDesk/
+TeaDesk
 │
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── assets/
-│
-├── backend/
-│   ├── api/
-│   ├── models/
-│   ├── services/
-│   ├── database/
-│   └── utils/
-│
-├── database/
-│   ├── schema/
-│   └── migrations/
-│
-├── docs/
-│
-├── screenshots/
-│
+├── frontend
+├── backend
+├── database
+├── docs
+├── assets
+├── screenshots
 ├── README.md
-│
 └── LICENSE
 ```
 
 ---
 
-# 📈 Scalability
+# 🚀 Development Roadmap
 
-Tea Desk has been designed with enterprise scalability in mind and is capable of supporting:
+## Phase 1 — Core System
 
-- Multiple tea factories
-- Multiple collection centers
-- Thousands of suppliers
-- Millions of historical procurement records
-- Concurrent system users
-- Large operational datasets
-- Future cloud deployment
-- Modular feature expansion
+- [x] Business Requirement Analysis
+- [x] Project Planning
+- [x] System Design
+- [ ] Database Design
+- [ ] Authentication System
+- [ ] User Management
 
 ---
 
-# 🛣️ Development Roadmap
+## Phase 2 — Operational Modules
+
+- [ ] Leaf Weighment Module
+- [ ] Supplier Management
+- [ ] Procurement Management
+- [ ] Production Management
+- [ ] Inventory Management
+- [ ] Financial Management
+
+---
+
+## Phase 3 — Reporting
+
+- [ ] Dashboard
+- [ ] Procurement Reports
+- [ ] Financial Reports
+- [ ] Inventory Reports
+- [ ] Production Reports
+
+---
+
+## Phase 4 — Advanced Features
+
+- [ ] AI Analytics
+- [ ] Quality Prediction
+- [ ] Mobile Application
+- [ ] QR Code Integration
+- [ ] Cloud Deployment
+- [ ] Multi Factory Support
+
+---
+
+# 📈 Current Status
 
 | Module | Status |
 |---------|--------|
-| Business Analysis | ✅ Completed |
-| Requirement Gathering | ✅ Completed |
-| System Design | ✅ Completed |
-| Database Design | 🔄 In Progress |
-| Backend Development | ⏳ Planned |
-| Frontend Development | ⏳ Planned |
-| API Integration | ⏳ Planned |
+| Planning | ✅ Completed |
+| UI Design | 🟡 In Progress |
+| Backend | ⏳ Planned |
+| Database | ⏳ Planned |
 | Testing | ⏳ Planned |
 | Deployment | ⏳ Planned |
 
 ---
 
-# 🔮 Future Enhancements
+# 🎯 Future Scope
 
-The following enterprise features are planned for future releases:
-
-- AI-powered operational analytics
-- Tea leaf quality prediction using Machine Learning
-- Predictive procurement forecasting
-- QR Code integration
-- Barcode-based inventory management
-- Mobile application
-- Supplier self-service portal
-- WhatsApp notifications
-- SMS alerts
-- Cloud synchronization
-- Multi-factory management
-- Advanced Business Intelligence dashboards
-- Predictive reporting
-- Performance benchmarking
-
----
-
-# 🏆 Design Principles
-
-Tea Desk is being developed following modern enterprise software engineering standards.
-
-- Modular Architecture
-- Clean Code Practices
-- Separation of Concerns
-- Scalability
-- Maintainability
-- Security by Design
-- Data Integrity
-- High Performance
-- Extensibility
-- Auditability
-
----
-
-# 🎯 Vision
-
-The long-term vision of Tea Desk is to evolve into a complete Enterprise Resource Planning (ERP) solution specifically designed for the tea manufacturing industry.
-
-The platform aims to integrate procurement, production, supplier management, inventory, finance, workforce administration, analytics, and AI-driven decision support into a unified enterprise ecosystem capable of serving tea factories of all scales.
+- Artificial Intelligence Analytics
+- Machine Learning Prediction
+- Business Intelligence Dashboard
+- Mobile Application
+- Cloud Infrastructure
+- WhatsApp Notifications
+- QR Code Tracking
+- Multi-Factory ERP
+- Predictive Reporting
 
 ---
 
@@ -407,19 +226,32 @@ The platform aims to integrate procurement, production, supplier management, inv
 
 Contributions are welcome.
 
-If you would like to improve the project:
+1. Fork the repository
+2. Create your feature branch
 
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push the branch.
-5. Submit a Pull Request.
+```bash
+git checkout -b feature/FeatureName
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature/FeatureName
+```
+
+5. Open a Pull Request
 
 ---
 
 # 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -427,10 +259,16 @@ This project is licensed under the MIT License.
 
 **Niswanth T**
 
-Artificial Intelligence & Software Developer
+AI & Software Developer
 
-Building intelligent enterprise solutions focused on automation, operational excellence, and AI-driven decision support.
+Building intelligent enterprise software focused on automation, operational excellence, and digital transformation.
 
 ---
 
-⭐ **If you find this project useful, consider giving it a star on GitHub.**
+<div align="center">
+
+### ⭐ Star this repository if you find it useful!
+
+**Made with ❤️ for the Tea Manufacturing Industry**
+
+</div>
