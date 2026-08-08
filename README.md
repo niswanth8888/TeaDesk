@@ -263,12 +263,3 @@ AI & Software Developer
 
 Building intelligent enterprise software focused on automation, operational excellence, and digital transformation.
 
----
-
-<div align="center">
-
-### ⭐ Star this repository if you find it useful!
-
-**Made with ❤️ for the Tea Manufacturing Industry**
-
-</div>
